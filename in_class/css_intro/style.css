@@ -1,0 +1,19 @@
+body {
+    background: rgb(123, 177, 123);
+}
+
+h1 {
+    color: red;
+    background: seagreen;
+    text-align: center;
+}
+
+div{
+    font-size: 60px;
+    background: orange;
+    padding: 30px;
+    border: 10px solid blue;
+    
+    margin: 60px;
+    margin-left: 260px;
+}
