@@ -1,0 +1,35 @@
+header {
+    background:palegreen;
+    color:palegreen;
+    margin-bottom:-2%;
+}
+h1 {
+    background:rgb(247, 161, 244);
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    background:rgb(238, 131, 59) ;
+    text-align: center;
+    padding: 10px;
+    margin-top:-2%;
+}
+h4 {
+    background: rgb(236, 236, 163);
+    padding: 15px;
+    margin:15%;
+    margin-top: 1%;
+}
+p {
+    background: blue;
+    padding: 30px;
+    margin: 15%;
+    margin-top: -15%;
+}
+footer {
+    background: grey;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10%;
+    margin-top: 20%;
+}
