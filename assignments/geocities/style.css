@@ -1,0 +1,29 @@
+body {
+    background-image: url(images/white.jpg)
+}
+.balvin {
+width: 200px;
+}    
+h1 {
+    text-align: center;
+    background-color: white;
+}
+.Tower{
+    width: 350px;
+    position: absolute;
+    bottom: -100px ;
+}
+.camera {
+    width: 300px;
+    position: fixed;
+    right: 300px;
+}
+.ally {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    align-self:flex-end;
+    right: 700x;
+    bottom: 300px;
+
+}
