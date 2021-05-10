@@ -1,9 +1,39 @@
 *{
    box-sizing: border-box; 
+   
+   
 }
-
+.carrot [
+    width
+]
 body {
     margin: 0;
     padding: 0;
-    
 }
+h1 {
+    text-align: center;
+    background-color: rgb(214, 244, 250);
+}
+.logo {
+    align-self: center;
+}
+.gallery {
+display: flex;
+align-items:center;
+justify-content: space-evenly;
+}
+.gallery img {
+    width: 50vmin
+}
+
+.gallery2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+} 
+
+.gallery2 img {
+    width: 50vmin;
+}
+
