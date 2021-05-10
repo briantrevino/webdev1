@@ -1,21 +1,25 @@
 *{
    box-sizing: border-box; 
-   
-   
-}
-.carrot [
-    width
-]
-body {
-    margin: 0;
+   margin: 0;
     padding: 0;
 }
 h1 {
     text-align: center;
-    background-color: rgb(214, 244, 250);
+    background-color: rgb(123, 131, 133);
+    padding-top: 0.7rem;
+    margin: 3em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 15px;
 }
 .logo {
-    align-self: center;
+    align-self: center; 
+    margin: 1em;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .gallery {
 display: flex;
@@ -23,17 +27,67 @@ align-items:center;
 justify-content: space-evenly;
 }
 .gallery img {
-    width: 50vmin
+    width: 50vmin;
+    padding: 1rem;
+
 }
 
 .gallery2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 1rem;
+
     
 } 
 
 .gallery2 img {
     width: 50vmin;
+    margin: 1em;
 }
 
+.gallery3 {
+    display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 1rem;
+    }
+.gallery3 img {
+    width: 50vmin;
+    margin: 1em;
+    height: 80vmin;
+}
+
+.text {
+    width: 100vw; ;
+    height: 200px;
+    background-color: grey;
+
+    border: 1rem solid black;
+    padding: 1rem;
+    margin-top: 15px;
+    
+}
+.main-menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: -10px;
+}
+
+.main-menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.bg-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+    position:fixed;
+    z-index: -1;
+}
