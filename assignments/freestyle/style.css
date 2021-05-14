@@ -5,13 +5,13 @@
 }
 h1{
     text-align: center;
-    background: chocolate;
+    background: rgb(167, 103, 58);
     font-family: cursive;
 }
 
 .grid-gallery{
     display: grid;
-    background: rgb(170, 204, 170);
+    background: rgb(247, 206, 94);
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5rem;
     padding: 1rem;
