@@ -8,17 +8,63 @@ body {
 }
 
 .phone-container {
-color: black;
+  background: blue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: .75rem;
+  border-radius: 3vmin;
+  
 }
 
 .row{
-color: black;
+  display: flex;
 }
 
 .app {
     color: white;
     text-decoration: none;
     font-size: 8vmin;
-    background: crimson;
-
+    background: black;
+    background-size: cover;
+  
+    width: 12vmin;
+    height: 12vmin;
+    margin: 1vmin;
+    border-radius: .5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.app:hover {
+  background: hsl(350, 100%, 60%);
+  color: hsl(62, 100%, 60%)
+}
+
+.a {background-image: url(//picsum.photos/seed/1/300);}
+.b {background-image: url(//picsum.photos/seed/2/300);}
+.c {background-image: url(//picsum.photos/seed/40/300);}
+.d {background-image: url(//picsum.photos/seed/60/300);}
+.e {background-image: url(//picsum.photos/seed/3/300);}
+.f {background-image: url(//picsum.photos/seed/6/300);}
+.g {background-image: url(//picsum.photos/seed/15/300);}
+.h {background-image: url(//picsum.photos/seed/5/300);}
+.i {background-image: url(//picsum.photos/seed/122/300);}
+.j {background-image: url(//picsum.photos/seed/134/300);}
+.k {background-image: url(//picsum.photos/seed/10/300);}
+.l {background-image: url(//picsum.photos/seed/55/300);}
+.m {background-image: url(//picsum.photos/seed/77/300);}
+.n {background-image: url(//picsum.photos/seed/66/300);}
+.o {background-image: url(//picsum.photos/seed/90/300);}
+.p {background-image: url(//picsum.photos/seed/88/300);}
+.a {background-image: url(//picsum.photos/seed/45/300);}
+.q {background-image: url(//picsum.photos/seed/7/300);}
+.r {background-image: url(//picsum.photos/seed/1140/300);}
+.s {background-image: url(//picsum.photos/seed/123/300);}
+.t {background-image: url(//picsum.photos/seed/777/300);}
+.u {background-image: url(//picsum.photos/seed/99/300);}
+.v {background-image: url(//picsum.photos/seed/100/300);}
+.w {background-image: url(//picsum.photos/seed/00/300);}
+.x {background-image: url(//picsum.photos/seed/134/300);}
