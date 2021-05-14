@@ -9,4 +9,9 @@ body {
     flex-wrap: wrap;
     gap: 1em;
 }
+h1 {
+    text-align: center;
+    background: cyan;
+    background-image:image();
+}
 
